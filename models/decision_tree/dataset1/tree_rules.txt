@@ -1,0 +1,1144 @@
+|--- aggression <= 0.00
+|   |--- law <= 0.00
+|   |   |--- dispute <= 0.00
+|   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |--- vacation <= 0.00
+|   |   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 184
+|   |   |   |   |   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 17
+|   |   |   |   |   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 34
+|   |   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- sleep <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- sleep >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- play <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- play >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- vacation >  0.00
+|   |   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |--- vacation <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- achievement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- achievement >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- vacation >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- vacation <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- vacation >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 19
+|   |   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |--- human_content <= 0.00
+|   |   |   |   |   |   |   |   |   |--- optimism <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- optimism >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- human_content >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |--- children <= 0.00
+|   |   |   |   |   |   |   |   |--- masculine <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- masculine >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- children >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |   |--- pain <= 0.00
+|   |   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- medical_emergency <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- medical_emergency >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- pain >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |--- traveling <= 0.00
+|   |   |   |   |   |   |   |   |--- cleaning <= 0.00
+|   |   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- help <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- help >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- cleaning >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- traveling >  0.00
+|   |   |   |   |   |   |   |   |--- furniture <= 0.00
+|   |   |   |   |   |   |   |   |   |--- computer <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- computer >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- furniture >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |--- cooking <= 0.00
+|   |   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |   |--- war <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- shame <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 24
+|   |   |   |   |   |   |   |   |   |   |--- shame >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- war >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- cooking >  0.00
+|   |   |   |   |   |   |   |   |--- smell <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- smell >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |--- liquid <= 0.00
+|   |   |   |   |   |   |   |   |   |--- shape_and_size <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- shape_and_size <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 21
+|   |   |   |   |   |   |   |   |   |   |--- shape_and_size >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- shape_and_size >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- music <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- music >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- liquid >  0.00
+|   |   |   |   |   |   |   |   |   |--- liquid <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- beach <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- beach >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- liquid >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- writing <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- writing >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |--- cooking <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- cooking >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |--- party <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- positive_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- positive_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- party >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |--- traveling <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- play <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- play >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- traveling >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- traveling <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- traveling >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |--- positive_emotion <= 0.00
+|   |   |   |   |   |--- positive_emotion <= 0.00
+|   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |--- children <= 0.00
+|   |   |   |   |   |   |   |   |   |--- sleep <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 32
+|   |   |   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- sleep >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- sleep <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- sleep >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- children >  0.00
+|   |   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |--- business <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- business >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |   |--- business <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- business >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- positive_emotion >  0.00
+|   |   |   |   |   |   |--- positive_emotion <= 0.00
+|   |   |   |   |   |   |   |--- pain <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- pain >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- positive_emotion >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- positive_emotion >  0.00
+|   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |--- trust <= 0.00
+|   |   |   |   |   |   |   |--- contentment <= 0.00
+|   |   |   |   |   |   |   |   |--- hate <= 0.00
+|   |   |   |   |   |   |   |   |   |--- giving <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- confusion <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- confusion >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- giving >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- hate >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- contentment >  0.00
+|   |   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- trust >  0.00
+|   |   |   |   |   |   |   |--- healing <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- healing >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- dispute >  0.00
+|   |   |   |--- journalism <= 0.00
+|   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |--- music <= 0.00
+|   |   |   |   |   |   |--- business <= 0.00
+|   |   |   |   |   |   |   |--- fight <= 0.00
+|   |   |   |   |   |   |   |   |--- competing <= 0.00
+|   |   |   |   |   |   |   |   |   |--- childish <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- lust <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- lust >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- childish >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- competing >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- fight >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- business >  0.00
+|   |   |   |   |   |   |   |--- medical_emergency <= 0.00
+|   |   |   |   |   |   |   |   |--- party <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- party >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- medical_emergency >  0.00
+|   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- music >  0.00
+|   |   |   |   |   |   |--- achievement <= 0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- achievement >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |--- music <= 0.00
+|   |   |   |   |   |   |   |   |--- injury <= 0.00
+|   |   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 12
+|   |   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- healing <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- healing >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- injury >  0.00
+|   |   |   |   |   |   |   |   |   |--- medical_emergency <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- occupation <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- occupation >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- medical_emergency >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- music >  0.00
+|   |   |   |   |   |   |   |   |--- vacation <= 0.00
+|   |   |   |   |   |   |   |   |   |--- sound <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- family <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- family >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- sound >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- vacation >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |--- speaking <= 0.00
+|   |   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |   |--- friends <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- celebration <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- celebration >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- friends >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- listen <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- listen >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- speaking >  0.00
+|   |   |   |   |   |   |   |   |--- phone <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- phone >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |--- speaking <= 0.00
+|   |   |   |   |   |   |   |   |   |--- business <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- business >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- speaking >  0.00
+|   |   |   |   |   |   |   |   |   |--- phone <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- phone >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |--- phone <= 0.00
+|   |   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- phone <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- phone >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- phone >  0.00
+|   |   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- journalism >  0.00
+|   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |--- reading <= 0.00
+|   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |--- crime <= 0.00
+|   |   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- help <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- help >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- crime >  0.00
+|   |   |   |   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- reading >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |--- speaking <= 0.00
+|   |   |   |   |   |   |   |   |--- messaging <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- messaging >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- speaking >  0.00
+|   |   |   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |--- technology <= 0.00
+|   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- technology >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |--- air_travel <= 0.00
+|   |   |   |   |   |   |   |--- writing <= 0.00
+|   |   |   |   |   |   |   |   |--- office <= 0.00
+|   |   |   |   |   |   |   |   |   |--- pet <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- pet >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- office >  0.00
+|   |   |   |   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- writing >  0.00
+|   |   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- air_travel >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |--- law >  0.00
+|   |   |--- journalism <= 0.00
+|   |   |   |--- dispute <= 0.00
+|   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |   |--- occupation <= 0.00
+|   |   |   |   |   |   |   |   |   |--- writing <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- speaking <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- speaking >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- writing >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- occupation >  0.00
+|   |   |   |   |   |   |   |   |   |--- celebration <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- celebration >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |   |   |--- hearing <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- trust <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- trust >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- hearing >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |   |   |--- dominant_heirarchical <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- dominant_heirarchical >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |   |   |--- messaging <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- messaging >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |   |   |--- valuable <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- college <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- college >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- valuable >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- government >  0.00
+|   |   |   |   |   |--- appearance <= 0.00
+|   |   |   |   |   |   |--- royalty <= 0.00
+|   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |--- party <= 0.00
+|   |   |   |   |   |   |   |   |   |--- restaurant <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- home <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 31
+|   |   |   |   |   |   |   |   |   |   |--- home >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- restaurant >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- party >  0.00
+|   |   |   |   |   |   |   |   |   |--- valuable <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- valuable >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- real_estate <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- real_estate >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |   |--- help <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- economics <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- economics >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- help >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- programming <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- programming >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- royalty >  0.00
+|   |   |   |   |   |   |   |--- phone <= 0.00
+|   |   |   |   |   |   |   |   |--- shape_and_size <= 0.00
+|   |   |   |   |   |   |   |   |   |--- real_estate <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- speaking <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- speaking >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- real_estate >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- shape_and_size >  0.00
+|   |   |   |   |   |   |   |   |   |--- exercise <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- exercise >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- phone >  0.00
+|   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |--- order <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- order >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- appearance >  0.00
+|   |   |   |   |   |   |--- college <= 0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- college >  0.00
+|   |   |   |   |   |   |   |--- reading <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- reading >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- dispute >  0.00
+|   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |--- help <= 0.00
+|   |   |   |   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- giving <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- giving >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- help >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |--- optimism <= 0.00
+|   |   |   |   |   |   |   |--- medieval <= 0.00
+|   |   |   |   |   |   |   |   |--- furniture <= 0.00
+|   |   |   |   |   |   |   |   |   |--- speaking <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- college <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- college >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- speaking >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- furniture >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- medieval >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- optimism >  0.00
+|   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |--- fight <= 0.00
+|   |   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |   |   |--- urban <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- power <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- power >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- urban >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |   |   |--- celebration <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- giving <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- giving >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- celebration >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- dominant_heirarchical <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- dominant_heirarchical >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- school <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- school >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |   |--- health <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- real_estate <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- real_estate >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- health >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |   |--- white_collar_job <= 0.00
+|   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |--- philosophy <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- independence <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- independence >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- philosophy >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- white_collar_job >  0.00
+|   |   |   |   |   |   |   |   |--- speaking <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- speaking >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- fight >  0.00
+|   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |--- sports <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- sports >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- journalism >  0.00
+|   |   |   |--- dispute <= 0.00
+|   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |--- royalty <= 0.00
+|   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |--- valuable <= 0.00
+|   |   |   |   |   |   |   |   |--- reading <= 0.00
+|   |   |   |   |   |   |   |   |   |--- philosophy <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- writing <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- writing >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- philosophy >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- reading >  0.00
+|   |   |   |   |   |   |   |   |   |--- masculine <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- masculine >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- valuable >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |--- economics <= 0.00
+|   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |--- programming <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- writing <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- writing >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- programming >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- economics >  0.00
+|   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- royalty >  0.00
+|   |   |   |   |   |   |--- college <= 0.00
+|   |   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |   |--- philosophy <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- philosophy >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- college >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- government >  0.00
+|   |   |   |   |   |--- politics <= 0.00
+|   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |--- science <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- science >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- politics >  0.00
+|   |   |   |   |   |   |--- dominant_heirarchical <= 0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- dominant_heirarchical >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |--- dispute >  0.00
+|   |   |   |   |--- occupation <= 0.00
+|   |   |   |   |   |--- white_collar_job <= 0.00
+|   |   |   |   |   |   |--- reading <= 0.00
+|   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |   |   |   |--- school <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- school >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |   |   |--- technology <= 0.00
+|   |   |   |   |   |   |   |   |   |--- crime <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- crime >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- technology >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- reading >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- white_collar_job >  0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- occupation >  0.00
+|   |   |   |   |   |--- class: 1
+|--- aggression >  0.00
+|   |--- journalism <= 0.00
+|   |   |--- movement <= 0.00
+|   |   |   |--- aggression <= 0.00
+|   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |--- shame <= 0.00
+|   |   |   |   |   |   |--- shape_and_size <= 0.00
+|   |   |   |   |   |   |   |--- business <= 0.00
+|   |   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |   |--- sadness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- achievement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- achievement >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- sadness >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |   |--- power <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- power >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- business >  0.00
+|   |   |   |   |   |   |   |   |--- hearing <= 0.00
+|   |   |   |   |   |   |   |   |   |--- medical_emergency <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- medical_emergency >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- hearing >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- shape_and_size >  0.00
+|   |   |   |   |   |   |   |--- giving <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- giving >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- shame >  0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- law >  0.00
+|   |   |   |   |   |--- stealing <= 0.00
+|   |   |   |   |   |   |--- celebration <= 0.00
+|   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |--- power <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- power >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- celebration >  0.00
+|   |   |   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- stealing >  0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- aggression >  0.00
+|   |   |   |   |--- philosophy <= 0.00
+|   |   |   |   |   |--- aggression <= 0.00
+|   |   |   |   |   |   |--- aggression <= 0.00
+|   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |--- business <= 0.00
+|   |   |   |   |   |   |   |   |   |--- medical_emergency <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- money <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- money >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- medical_emergency >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- help <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- help >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- business >  0.00
+|   |   |   |   |   |   |   |   |   |--- shame <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- masculine <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- masculine >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- shame >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |--- violence <= 0.00
+|   |   |   |   |   |   |   |   |   |--- communication <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- communication >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- violence >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- aggression >  0.00
+|   |   |   |   |   |   |   |--- pain <= 0.00
+|   |   |   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |   |   |--- aggression <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- aggression >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- pain >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- aggression >  0.00
+|   |   |   |   |   |   |--- kill <= 0.00
+|   |   |   |   |   |   |   |--- masculine <= 0.00
+|   |   |   |   |   |   |   |   |--- aggression <= 0.00
+|   |   |   |   |   |   |   |   |   |--- aggression <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- fight <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- fight >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- aggression >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- negative_emotion <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- negative_emotion >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- aggression >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- masculine >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- kill >  0.00
+|   |   |   |   |   |   |   |--- weapon <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- weapon >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- philosophy >  0.00
+|   |   |   |   |   |--- celebration <= 0.00
+|   |   |   |   |   |   |--- writing <= 0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- writing >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- celebration >  0.00
+|   |   |   |   |   |   |--- fight <= 0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- fight >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |--- movement >  0.00
+|   |   |   |--- aggression <= 0.00
+|   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |--- rage <= 0.00
+|   |   |   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |   |   |--- achievement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- fight <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- fight >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- achievement >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- rage >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- aggression >  0.00
+|   |   |   |   |--- emotional <= 0.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- emotional >  0.00
+|   |   |   |   |   |--- class: 0
+|   |--- journalism >  0.00
+|   |   |--- movement <= 0.00
+|   |   |   |--- party <= 0.00
+|   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |--- dispute <= 0.00
+|   |   |   |   |   |   |--- messaging <= 0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- messaging >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- dispute >  0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |--- dominant_heirarchical <= 0.00
+|   |   |   |   |   |   |--- work <= 0.00
+|   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |   |   |--- wedding <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- wedding >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |   |   |--- writing <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- writing >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |--- royalty <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- reading <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- reading >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- royalty >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |--- programming <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- programming >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- work >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- dominant_heirarchical >  0.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- party >  0.00
+|   |   |   |   |--- wedding <= 0.00
+|   |   |   |   |   |--- school <= 0.00
+|   |   |   |   |   |   |--- shopping <= 0.00
+|   |   |   |   |   |   |   |--- crime <= 0.00
+|   |   |   |   |   |   |   |   |--- power <= 0.00
+|   |   |   |   |   |   |   |   |   |--- valuable <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- meeting <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- meeting >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- valuable >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- power >  0.00
+|   |   |   |   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- crime >  0.00
+|   |   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- shopping >  0.00
+|   |   |   |   |   |   |   |--- journalism <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- journalism >  0.00
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- school >  0.00
+|   |   |   |   |   |   |--- science <= 0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- science >  0.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- wedding >  0.00
+|   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |--- leisure <= 0.00
+|   |   |   |   |   |   |   |--- celebration <= 0.00
+|   |   |   |   |   |   |   |   |--- social_media <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- social_media >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- celebration >  0.00
+|   |   |   |   |   |   |   |   |--- power <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- power >  0.00
+|   |   |   |   |   |   |   |   |   |--- government <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- celebration <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- celebration >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- leisure >  0.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- government >  0.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |--- movement >  0.00
+|   |   |   |--- writing <= 0.00
+|   |   |   |   |--- stealing <= 0.00
+|   |   |   |   |   |--- leader <= 0.00
+|   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |--- royalty <= 0.00
+|   |   |   |   |   |   |   |   |--- sleep <= 0.00
+|   |   |   |   |   |   |   |   |   |--- phone <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- movement <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- movement >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- phone >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- sleep >  0.00
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- royalty >  0.00
+|   |   |   |   |   |   |   |   |--- power <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- power >  0.00
+|   |   |   |   |   |   |   |   |   |--- internet <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- law <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- law >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- internet >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- strength <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- strength >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- leader >  0.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- stealing >  0.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- writing >  0.00
+|   |   |   |   |--- class: 0
