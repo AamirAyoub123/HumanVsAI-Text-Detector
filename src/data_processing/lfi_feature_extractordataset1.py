@@ -15,14 +15,14 @@ from src.utils.paths import (
     
 )
 
-nlp = spacy.load("en_core_web_md")  # Medium model for efficiency
+nlp = spacy.load("en_core_web_md")  
 
 class LFIExtractor:
     def __init__(self):
         self.lexicons = self._load_lexicons()
     
     def _load_lexicons(self):
-        """Enhanced in-built lexicons for psychological features"""
+       
         return {
             'emotional': [
                 'amazing', 'awful', 'beautiful', 'disgust', 'excellent', 

@@ -14,7 +14,7 @@ import json
 import sys
 import os
 
-# Configure NLTK
+
 nltk.download(['stopwords', 'wordnet', 'omw-1.4'])
 current_file_path = Path(__file__).resolve()
 PROJECT_ROOT = current_file_path.parent.parent.parent 
@@ -35,18 +35,18 @@ class LemmaTFIDF_LogReg:
             ('tfidf', TfidfVectorizer(
                 tokenizer=self._lemma_tokenizer,
                 token_pattern=None,
-                ngram_range=(1, 3),  # 1. Added trigrams
-                max_features=15000,   # 2. Reduced feature space
-                min_df=5,            # 2. Filter rare terms
-                max_df=0.85,          # 2. Remove common terms
+                ngram_range=(1, 3),  
+                max_features=15000,   
+                min_df=5,            
+                max_df=0.85,          
                 sublinear_tf=True
             )),
             ('clf', LogisticRegression(
-                C=0.5,               # 3. Stronger regularization
-                penalty='l2',        # 3. L2 regularization
-                class_weight={0: 2.0, 1: 1.0},  # 1. Class weighting
+                C=0.5,               
+                penalty='l2',        
+                class_weight={0: 2.0, 1: 1.0},  
                 solver='saga',
-                max_iter=2000,       # 3. More iterations
+                max_iter=2000,       
                 n_jobs=-1
             ))
         ])

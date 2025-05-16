@@ -107,7 +107,7 @@ def prepare_data():
 
 def save_results(results, history):
     """Save metrics and training history to JSON files"""
-    # Create results directory if not exists
+    
     results_dir = MODELS_DIR  / "lfi_cnn"/ "dataset1"
     results_dir.mkdir(parents=True, exist_ok=True)
     

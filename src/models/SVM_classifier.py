@@ -9,7 +9,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 import json
 import sys
-import os
+
 
 current_file_path = Path(__file__).resolve()
 PROJECT_ROOT = current_file_path.parent.parent.parent 
@@ -23,25 +23,22 @@ from src.utils.paths import (
 class Char3GramSVMDetector:
     def __init__(self, dataset_name="dataset1"):
         self.dataset_name = dataset_name
-        # Replace CountVectorizer with:
         self.vectorizer = TfidfVectorizer(
             analyzer='char',
-            ngram_range=(2, 4),  # Include 2-4 character grams
-            max_features=15000,
+            ngram_range=(2, 4), 
             sublinear_tf=True
         )
-        # Update SVC parameters:
         self.classifier = SVC(
             kernel='linear',
-            C=0.7,  # Reduced regularization
-            class_weight={0: 1.5, 1: 1},  # Manual class weighting
+            C=0.7,  
+            class_weight={0: 1.5, 1: 1},  
             probability=True,
             random_state=42
         )
         self.pipeline = make_pipeline(self.vectorizer, self.classifier)
 
     def load_data(self, split):
-        """Load processed data (matches your existing structure)"""
+        """Load processed data """
         texts_path = PROCESSED_DATA_DIR / "ProcessedDatasets1" / f"{split}_cleaned.csv"
         df = pd.read_csv(texts_path)
         return df['cleaned_text'].tolist(), df['label'].values

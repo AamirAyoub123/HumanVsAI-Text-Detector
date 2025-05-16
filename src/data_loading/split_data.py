@@ -6,7 +6,7 @@ import os
 current_file_path = Path(__file__).resolve()
 PROJECT_ROOT = current_file_path.parent.parent.parent 
 sys.path.append(str(PROJECT_ROOT))
-from src.utils.paths import TEST_DATA_PATH, VALIDATION_DATA_PATH, PROCESSED_DATA_DIR
+from src.utils.paths import TEST_DATA_PATH, VALIDATION_DATA_PATH
 import logging
 
 # Set up logging

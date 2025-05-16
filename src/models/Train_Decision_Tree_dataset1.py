@@ -5,18 +5,14 @@ import joblib
 from pathlib import Path
 import json
 import sys
-import os
+
 
 current_file_path = Path(__file__).resolve()
 PROJECT_ROOT = current_file_path.parent.parent.parent 
 sys.path.append(str(PROJECT_ROOT))
 
 from src.utils.paths import (
-    RAW_DATA_DIR, 
-    TRAIN_DATA_PATH,
-    DT_MODEL_DIR,  # This should point to G:\...\src\models\decision_tree\dataset1\
-    VALIDATION_DATA_PATH,
-    NEW_TEST_DATA_PATH,
+    DT_MODEL_DIR, 
     PROCESSED_DATA_DIR,
     EMPATH_DATA_DIR
 )
@@ -76,7 +72,7 @@ class DecisionTreeTrainer:
     
     def _save_model_and_artifacts(self, results):
         """Save all training artifacts directly to dataset1 folder"""
-        # Ensure directory exists
+       
         save_dir = DT_MODEL_DIR
         save_dir.mkdir(parents=True, exist_ok=True)
         

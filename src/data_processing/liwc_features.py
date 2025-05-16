@@ -8,11 +8,6 @@ current_file_path = Path(__file__).resolve()
 PROJECT_ROOT = current_file_path.parent.parent.parent 
 sys.path.append(str(PROJECT_ROOT))
 from src.utils.paths import (
-    RAW_DATA_DIR, 
-    TRAIN_DATA_PATH,
-    TEST_DATA_PATH,
-    VALIDATION_DATA_PATH,
-    NEW_TEST_DATA_PATH,
     PROCESSED_DATA_DIR,
     EMPATH_DATA_DIR
 )
@@ -36,7 +31,7 @@ class EmpathAnalyzer:
         """Extract Empath features with normalization"""
         analysis = self.lexicon.analyze(text, normalize=True)
         # Add custom normalizations
-        word_count = max(1, len(text.split()))  # Prevent division by zero
+        word_count = max(1, len(text.split()))  
         return {k: v/word_count for k, v in analysis.items()}
     
     def process_dataset(self, dataset_name):
@@ -65,6 +60,6 @@ analyzer = EmpathAnalyzer()
 # Process dataset1
 analyzer.process_dataset("dataset1")
 
-# Verify output
+
 train_features = pd.read_csv(EMPATH_DATA_DIR / "dataset1" / "empath_train.csv")
 print(train_features.head())

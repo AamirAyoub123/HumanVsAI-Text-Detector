@@ -19,11 +19,11 @@ from src.data_processing.writeprints_extractor import WriteprintsExtractor
 class WriteprintsRFC:
     def __init__(self):
         self.model = RandomForestClassifier(
-           n_estimators=100,          # Increased from 100
-            max_depth=8,              # Reduced from unlimited
-            min_samples_split=10,      # Increased from 2
-            min_samples_leaf=5,        # Increased from 1
-            max_features='sqrt',       # Reduced from 'auto'
+           n_estimators=100,          
+            max_depth=8,              
+            min_samples_split=10,      
+            min_samples_leaf=5,        
+            max_features='sqrt',       
             class_weight='balanced',
             random_state=42,
             n_jobs=-1

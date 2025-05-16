@@ -9,10 +9,6 @@ PROJECT_ROOT = current_file_path.parent.parent.parent
 sys.path.append(str(PROJECT_ROOT))
 from src.utils.paths import (
     RAW_DATA_DIR, 
-    TRAIN_DATA_PATH,
-    TEST_DATA_PATH,
-    VALIDATION_DATA_PATH,
-    NEW_TEST_DATA_PATH,
     PROCESSED_DATA_DIR
 )
 
@@ -51,7 +47,7 @@ def preprocess_dataset():
         # Load raw data
         df = pd.read_csv(file_path)
         
-        # 1. Column cleaning
+        
         cols_to_keep = ['text', 'label']
         if 'prompt' in df.columns:
             cols_to_keep.append('prompt')

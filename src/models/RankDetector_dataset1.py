@@ -12,7 +12,7 @@ import os
 from tqdm import tqdm
 from memory_profiler import profile
 
-# Configure PyTorch for optimal CPU performance
+
 torch.set_num_threads(os.cpu_count() or 4)
 torch.set_flush_denormal(True)
 print(f"PyTorch using {torch.get_num_threads()} CPU threads")
@@ -33,7 +33,7 @@ class RankDetector:
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         self.tokenizer = None
         self.lm_model = None
-        self.classifier = LogisticRegression(max_iter=1000, n_jobs=-1)  # Use all CPU cores
+        self.classifier = LogisticRegression(max_iter=1000, n_jobs=-1)  
         self._load_language_model()
         
     def _load_language_model(self):
@@ -43,7 +43,7 @@ class RankDetector:
         
         # Set padding token if not exists
         if self.tokenizer.pad_token is None:
-            self.tokenizer.pad_token = self.tokenizer.eos_token  # Use EOS token as padding token
+            self.tokenizer.pad_token = self.tokenizer.eos_token  
         
         # Load with optimized settings
         self.lm_model = GPT2LMHeadModel.from_pretrained(
@@ -71,7 +71,7 @@ class RankDetector:
             logits = outputs.logits
         
         ranks = []
-        for i in range(1, input_ids.shape[1]):  # Skip first token (no context)
+        for i in range(1, input_ids.shape[1]):  
             # Get probabilities for next token
             probs = torch.softmax(logits[0, i-1], dim=-1)
             
@@ -194,7 +194,7 @@ def train_rank_detector(dataset_name):
     return results
 
 if __name__ == "__main__":
-    # Add CPU affinity settings for Windows
+    
     if os.name == 'nt':
         os.system('start /B /WAIT /HIGH python -c "import os; os.system(\"powershell -command \\\"$Process = Get-Process -Id $PID; $Process.ProcessorAffinity=15\\\"\")"')
     
