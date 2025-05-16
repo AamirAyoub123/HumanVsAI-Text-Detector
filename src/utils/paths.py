@@ -27,9 +27,11 @@ DT_MODEL_DIR = MODELS_DIR / "decision_tree" / "dataset1"
 # Add to your paths.py
 WRITEPRINTS_DATA_DIR = DATA_DIR / "writeprints_features"
 WRITEPRINTS_MODEL_DIR = MODELS_DIR / "writeprints_rfc"
+LL_MODEL_DIR= MODELS_DIR / "LL"
+Rank_MODEL_DIR = MODELS_DIR / "Rank"
 
 for directory in [RAW_DATA_DIR, PROCESSED_DATA_DIR, TOKENIZED_DATA_DIR, 
-                 GPT2_MODEL_DIR, DT_MODEL_DIR, EMPATH_DATA_DIR,WRITEPRINTS_DATA_DIR, WRITEPRINTS_MODEL_DIR]:
+                 GPT2_MODEL_DIR, DT_MODEL_DIR, EMPATH_DATA_DIR,WRITEPRINTS_DATA_DIR, WRITEPRINTS_MODEL_DIR,Rank_MODEL_DIR]:
     directory.mkdir(parents=True, exist_ok=True)
 # Example usage in other files:
 # from src.data_loading.paths import TRAIN_DATA_PATH, GPT2_MODEL_DIR
