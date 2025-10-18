@@ -1,7 +1,5 @@
 # 🧠 Human vs AI Text Detector  
 ### _Text Mining Application in Cybersecurity_  
-> **Master Big Data & IoT – ENSAM Casablanca (2024–2025)**  
-> **By:** Ayoub Aamir  
 
 ---
 
@@ -200,3 +198,16 @@ Our study replicates and extends the work from
 │       └── paths.py                 # Centralized path management using pathlib
 │
 └── requirements.txt                 # Python dependencies
+```
+---
+
+## 👨‍💻 Author
+**Ayoub Aamir**  
+
+🎓 **Master Big Data & IoT**  
+📍 *ENSAM Casablanca*  
+📧 [ayoub.aamir@example.com](mailto:ayoub.aamir@example.com)
+
+🔗 **Connect with me:**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayoub-aamir)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayoub-aamir)
